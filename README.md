@@ -21,13 +21,6 @@ This project combines a trained model with a **Streamlit web interface** to prov
 - ROC-AUC Score: 0.99  
 - Recall (Fraud class): 0.94  
 - Precision (Fraud class): 0.02  
-- Confusion Matrix Highlights:  
-  - True Negatives: 1,806,337  
-  - False Positives: 99,985  
-  - True Positives: 2,306  
-  - False Negatives: 158  
-
-The model achieves high recall for fraud cases but generates a higher number of false positives, which is common in fraud detection scenarios.  
 
 ---
 
@@ -36,8 +29,7 @@ The model achieves high recall for fraud cases but generates a higher number of 
 The Streamlit app allows users to:  
 - Upload a transaction dataset in CSV format.  
 - Get instant fraud prediction for each record.  
-- Visualize results with confusion matrix, ROC curve, and classification metrics.  
-- Explore transaction amount outliers with a boxplot.  
+
 
 To run the UI locally:  
 
